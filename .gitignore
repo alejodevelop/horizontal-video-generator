@@ -5,3 +5,32 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Video and Audio files
+Audio/
+Video/
+public/Audio/
+public/Video/
+
+# Common video extensions
+*.mp4
+*.avi
+*.mov
+*.MOV
+*.mkv
+*.flv
+*.wmv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+
+# Common audio extensions
+*.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.m4a
+*.wma
+*.opus
