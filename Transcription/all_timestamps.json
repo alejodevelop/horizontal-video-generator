@@ -1,0 +1,741 @@
+{
+  "toma_1": {
+    "take": 1,
+    "duration": 6.98,
+    "text": "En el 2024, Warren Buffett logró un 22%",
+    "words": [
+      {
+        "word": "En",
+        "start": 0.0,
+        "end": 1.48
+      },
+      {
+        "word": "el",
+        "start": 1.48,
+        "end": 1.66
+      },
+      {
+        "word": "2024,",
+        "start": 1.66,
+        "end": 2.8
+      },
+      {
+        "word": "Warren",
+        "start": 3.68,
+        "end": 3.88
+      },
+      {
+        "word": "Buffett",
+        "start": 3.88,
+        "end": 4.42
+      },
+      {
+        "word": "logró",
+        "start": 4.42,
+        "end": 5.28
+      },
+      {
+        "word": "un",
+        "start": 5.28,
+        "end": 5.72
+      },
+      {
+        "word": "22",
+        "start": 5.72,
+        "end": 6.4
+      },
+      {
+        "word": "%",
+        "start": 6.4,
+        "end": 6.98
+      }
+    ]
+  },
+  "toma_2": {
+    "take": 2,
+    "duration": 8.78,
+    "text": "Siendo uno de los inversores más importantes del planeta y teniendo todo un equipo de agresados de Harvard trabajando para él.",
+    "words": [
+      {
+        "word": "Siendo",
+        "start": 0.0,
+        "end": 1.32
+      },
+      {
+        "word": "uno",
+        "start": 1.32,
+        "end": 1.8
+      },
+      {
+        "word": "de",
+        "start": 1.8,
+        "end": 1.92
+      },
+      {
+        "word": "los",
+        "start": 1.92,
+        "end": 2.14
+      },
+      {
+        "word": "inversores",
+        "start": 2.14,
+        "end": 2.64
+      },
+      {
+        "word": "más",
+        "start": 2.64,
+        "end": 2.94
+      },
+      {
+        "word": "importantes",
+        "start": 2.94,
+        "end": 3.58
+      },
+      {
+        "word": "del",
+        "start": 3.58,
+        "end": 3.96
+      },
+      {
+        "word": "planeta",
+        "start": 3.96,
+        "end": 4.42
+      },
+      {
+        "word": "y",
+        "start": 4.42,
+        "end": 5.0
+      },
+      {
+        "word": "teniendo",
+        "start": 5.0,
+        "end": 5.42
+      },
+      {
+        "word": "todo",
+        "start": 5.42,
+        "end": 5.66
+      },
+      {
+        "word": "un",
+        "start": 5.66,
+        "end": 5.86
+      },
+      {
+        "word": "equipo",
+        "start": 5.86,
+        "end": 6.18
+      },
+      {
+        "word": "de",
+        "start": 6.18,
+        "end": 6.56
+      },
+      {
+        "word": "agresados",
+        "start": 6.56,
+        "end": 7.08
+      },
+      {
+        "word": "de",
+        "start": 7.08,
+        "end": 7.3
+      },
+      {
+        "word": "Harvard",
+        "start": 7.3,
+        "end": 7.56
+      },
+      {
+        "word": "trabajando",
+        "start": 7.56,
+        "end": 8.14
+      },
+      {
+        "word": "para",
+        "start": 8.14,
+        "end": 8.54
+      },
+      {
+        "word": "él.",
+        "start": 8.54,
+        "end": 8.78
+      }
+    ]
+  },
+  "toma_3": {
+    "take": 3,
+    "duration": 8.4,
+    "text": "El solo logró un 22% pero sabes quién logró 35%",
+    "words": [
+      {
+        "word": "El",
+        "start": 0.0,
+        "end": 1.16
+      },
+      {
+        "word": "solo",
+        "start": 1.16,
+        "end": 1.64
+      },
+      {
+        "word": "logró",
+        "start": 1.64,
+        "end": 2.28
+      },
+      {
+        "word": "un",
+        "start": 2.28,
+        "end": 2.74
+      },
+      {
+        "word": "22",
+        "start": 2.74,
+        "end": 3.32
+      },
+      {
+        "word": "%",
+        "start": 3.32,
+        "end": 4.16
+      },
+      {
+        "word": "pero",
+        "start": 4.16,
+        "end": 4.9
+      },
+      {
+        "word": "sabes",
+        "start": 4.9,
+        "end": 5.24
+      },
+      {
+        "word": "quién",
+        "start": 5.24,
+        "end": 5.66
+      },
+      {
+        "word": "logró",
+        "start": 5.66,
+        "end": 6.24
+      },
+      {
+        "word": "35",
+        "start": 6.24,
+        "end": 7.5
+      },
+      {
+        "word": "%",
+        "start": 7.5,
+        "end": 8.4
+      }
+    ]
+  },
+  "toma_4": {
+    "take": 4,
+    "duration": 17.06,
+    "text": "El Congreso de Estados Unidos. Personas que en su mayoría tienen de 60 a 80 años compran acciones desde su teléfono y no tienen ni idea ni un equipo de tras de analistas como lo tendría Warren Buffett.",
+    "words": [
+      {
+        "word": "El",
+        "start": 0.0,
+        "end": 1.26
+      },
+      {
+        "word": "Congreso",
+        "start": 1.26,
+        "end": 1.74
+      },
+      {
+        "word": "de",
+        "start": 1.74,
+        "end": 2.2
+      },
+      {
+        "word": "Estados",
+        "start": 2.2,
+        "end": 2.54
+      },
+      {
+        "word": "Unidos.",
+        "start": 2.54,
+        "end": 2.98
+      },
+      {
+        "word": "Personas",
+        "start": 3.96,
+        "end": 4.66
+      },
+      {
+        "word": "que",
+        "start": 4.66,
+        "end": 4.88
+      },
+      {
+        "word": "en",
+        "start": 4.88,
+        "end": 4.98
+      },
+      {
+        "word": "su",
+        "start": 4.98,
+        "end": 5.1
+      },
+      {
+        "word": "mayoría",
+        "start": 5.1,
+        "end": 5.42
+      },
+      {
+        "word": "tienen",
+        "start": 5.42,
+        "end": 6.16
+      },
+      {
+        "word": "de",
+        "start": 6.16,
+        "end": 6.44
+      },
+      {
+        "word": "60",
+        "start": 6.44,
+        "end": 7.02
+      },
+      {
+        "word": "a",
+        "start": 7.02,
+        "end": 7.4
+      },
+      {
+        "word": "80",
+        "start": 7.4,
+        "end": 7.8
+      },
+      {
+        "word": "años",
+        "start": 7.8,
+        "end": 8.28
+      },
+      {
+        "word": "compran",
+        "start": 8.28,
+        "end": 8.86
+      },
+      {
+        "word": "acciones",
+        "start": 8.86,
+        "end": 9.34
+      },
+      {
+        "word": "desde",
+        "start": 9.34,
+        "end": 9.6
+      },
+      {
+        "word": "su",
+        "start": 9.6,
+        "end": 9.88
+      },
+      {
+        "word": "teléfono",
+        "start": 9.88,
+        "end": 10.56
+      },
+      {
+        "word": "y",
+        "start": 10.56,
+        "end": 11.0
+      },
+      {
+        "word": "no",
+        "start": 11.0,
+        "end": 11.14
+      },
+      {
+        "word": "tienen",
+        "start": 11.14,
+        "end": 11.52
+      },
+      {
+        "word": "ni",
+        "start": 11.52,
+        "end": 12.14
+      },
+      {
+        "word": "idea",
+        "start": 12.14,
+        "end": 12.74
+      },
+      {
+        "word": "ni",
+        "start": 12.74,
+        "end": 13.3
+      },
+      {
+        "word": "un",
+        "start": 13.3,
+        "end": 13.48
+      },
+      {
+        "word": "equipo",
+        "start": 13.48,
+        "end": 13.78
+      },
+      {
+        "word": "de",
+        "start": 13.78,
+        "end": 14.02
+      },
+      {
+        "word": "tras",
+        "start": 14.02,
+        "end": 14.26
+      },
+      {
+        "word": "de",
+        "start": 14.26,
+        "end": 14.38
+      },
+      {
+        "word": "analistas",
+        "start": 14.38,
+        "end": 14.82
+      },
+      {
+        "word": "como",
+        "start": 14.82,
+        "end": 15.1
+      },
+      {
+        "word": "lo",
+        "start": 15.1,
+        "end": 15.22
+      },
+      {
+        "word": "tendría",
+        "start": 15.22,
+        "end": 15.68
+      },
+      {
+        "word": "Warren",
+        "start": 15.68,
+        "end": 16.6
+      },
+      {
+        "word": "Buffett.",
+        "start": 16.6,
+        "end": 17.06
+      }
+    ]
+  },
+  "toma_5": {
+    "take": 5,
+    "duration": 17.8,
+    "text": "Nancy Pelosi logró 103% con Google. Marjorie Taylor Green logró 117% con AMD. Resultados que Warren Buffett solo podría haber soñado.",
+    "words": [
+      {
+        "word": "Nancy",
+        "start": 0.0,
+        "end": 0.88
+      },
+      {
+        "word": "Pelosi",
+        "start": 0.88,
+        "end": 1.36
+      },
+      {
+        "word": "logró",
+        "start": 1.36,
+        "end": 2.2
+      },
+      {
+        "word": "103",
+        "start": 2.2,
+        "end": 3.02
+      },
+      {
+        "word": "%",
+        "start": 3.02,
+        "end": 3.64
+      },
+      {
+        "word": "con",
+        "start": 3.64,
+        "end": 4.32
+      },
+      {
+        "word": "Google.",
+        "start": 4.32,
+        "end": 4.72
+      },
+      {
+        "word": "Marjorie",
+        "start": 5.64,
+        "end": 6.32
+      },
+      {
+        "word": "Taylor",
+        "start": 6.32,
+        "end": 6.68
+      },
+      {
+        "word": "Green",
+        "start": 6.68,
+        "end": 7.12
+      },
+      {
+        "word": "logró",
+        "start": 7.12,
+        "end": 8.24
+      },
+      {
+        "word": "117",
+        "start": 8.24,
+        "end": 9.8
+      },
+      {
+        "word": "%",
+        "start": 9.8,
+        "end": 10.58
+      },
+      {
+        "word": "con",
+        "start": 10.58,
+        "end": 11.46
+      },
+      {
+        "word": "AMD.",
+        "start": 11.46,
+        "end": 12.06
+      },
+      {
+        "word": "Resultados",
+        "start": 13.42,
+        "end": 14.24
+      },
+      {
+        "word": "que",
+        "start": 14.24,
+        "end": 14.54
+      },
+      {
+        "word": "Warren",
+        "start": 14.54,
+        "end": 14.84
+      },
+      {
+        "word": "Buffett",
+        "start": 14.84,
+        "end": 15.38
+      },
+      {
+        "word": "solo",
+        "start": 15.38,
+        "end": 16.0
+      },
+      {
+        "word": "podría",
+        "start": 16.0,
+        "end": 16.56
+      },
+      {
+        "word": "haber",
+        "start": 16.56,
+        "end": 17.02
+      },
+      {
+        "word": "soñado.",
+        "start": 17.02,
+        "end": 17.8
+      }
+    ]
+  },
+  "toma_6": {
+    "take": 6,
+    "duration": 10.7,
+    "text": "Inversores como Warren Buffett tienen que enfrentarse a la incertidumbre del mercado, los políticos ya saben que va a pasar y por eso nosotros seguimos a los políticos.",
+    "words": [
+      {
+        "word": "Inversores",
+        "start": 0.8999999999999999,
+        "end": 1.48
+      },
+      {
+        "word": "como",
+        "start": 1.48,
+        "end": 1.78
+      },
+      {
+        "word": "Warren",
+        "start": 1.78,
+        "end": 2.06
+      },
+      {
+        "word": "Buffett",
+        "start": 2.06,
+        "end": 2.54
+      },
+      {
+        "word": "tienen",
+        "start": 2.54,
+        "end": 2.8
+      },
+      {
+        "word": "que",
+        "start": 2.8,
+        "end": 3.06
+      },
+      {
+        "word": "enfrentarse",
+        "start": 3.06,
+        "end": 3.68
+      },
+      {
+        "word": "a",
+        "start": 3.68,
+        "end": 3.82
+      },
+      {
+        "word": "la",
+        "start": 3.82,
+        "end": 3.86
+      },
+      {
+        "word": "incertidumbre",
+        "start": 3.86,
+        "end": 4.6
+      },
+      {
+        "word": "del",
+        "start": 4.6,
+        "end": 4.74
+      },
+      {
+        "word": "mercado,",
+        "start": 4.74,
+        "end": 5.2
+      },
+      {
+        "word": "los",
+        "start": 5.96,
+        "end": 6.06
+      },
+      {
+        "word": "políticos",
+        "start": 6.06,
+        "end": 6.54
+      },
+      {
+        "word": "ya",
+        "start": 6.54,
+        "end": 6.72
+      },
+      {
+        "word": "saben",
+        "start": 6.72,
+        "end": 7.08
+      },
+      {
+        "word": "que",
+        "start": 7.08,
+        "end": 7.3
+      },
+      {
+        "word": "va",
+        "start": 7.3,
+        "end": 7.42
+      },
+      {
+        "word": "a",
+        "start": 7.42,
+        "end": 7.44
+      },
+      {
+        "word": "pasar",
+        "start": 7.44,
+        "end": 7.88
+      },
+      {
+        "word": "y",
+        "start": 7.88,
+        "end": 8.44
+      },
+      {
+        "word": "por",
+        "start": 8.44,
+        "end": 8.64
+      },
+      {
+        "word": "eso",
+        "start": 8.64,
+        "end": 8.82
+      },
+      {
+        "word": "nosotros",
+        "start": 8.82,
+        "end": 9.18
+      },
+      {
+        "word": "seguimos",
+        "start": 9.18,
+        "end": 9.72
+      },
+      {
+        "word": "a",
+        "start": 9.72,
+        "end": 9.9
+      },
+      {
+        "word": "los",
+        "start": 9.9,
+        "end": 10.06
+      },
+      {
+        "word": "políticos.",
+        "start": 10.06,
+        "end": 10.7
+      }
+    ]
+  },
+  "toma_7": {
+    "take": 7,
+    "duration": 4.24,
+    "text": "si quieres saber cómo lo hacemos, síguenos",
+    "words": [
+      {
+        "word": "si",
+        "start": 0.0,
+        "end": 0.68
+      },
+      {
+        "word": "quieres",
+        "start": 0.68,
+        "end": 0.98
+      },
+      {
+        "word": "saber",
+        "start": 0.98,
+        "end": 1.42
+      },
+      {
+        "word": "cómo",
+        "start": 1.42,
+        "end": 2.02
+      },
+      {
+        "word": "lo",
+        "start": 2.02,
+        "end": 2.22
+      },
+      {
+        "word": "hacemos,",
+        "start": 2.22,
+        "end": 2.74
+      },
+      {
+        "word": "síguenos",
+        "start": 3.38,
+        "end": 4.24
+      }
+    ]
+  }
+}

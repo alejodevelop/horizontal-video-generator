@@ -1,0 +1,112 @@
+{
+  "take": 2,
+  "duration": 8.78,
+  "text": "Siendo uno de los inversores más importantes del planeta y teniendo todo un equipo de agresados de Harvard trabajando para él.",
+  "words": [
+    {
+      "word": "Siendo",
+      "start": 0.0,
+      "end": 1.32
+    },
+    {
+      "word": "uno",
+      "start": 1.32,
+      "end": 1.8
+    },
+    {
+      "word": "de",
+      "start": 1.8,
+      "end": 1.92
+    },
+    {
+      "word": "los",
+      "start": 1.92,
+      "end": 2.14
+    },
+    {
+      "word": "inversores",
+      "start": 2.14,
+      "end": 2.64
+    },
+    {
+      "word": "más",
+      "start": 2.64,
+      "end": 2.94
+    },
+    {
+      "word": "importantes",
+      "start": 2.94,
+      "end": 3.58
+    },
+    {
+      "word": "del",
+      "start": 3.58,
+      "end": 3.96
+    },
+    {
+      "word": "planeta",
+      "start": 3.96,
+      "end": 4.42
+    },
+    {
+      "word": "y",
+      "start": 4.42,
+      "end": 5.0
+    },
+    {
+      "word": "teniendo",
+      "start": 5.0,
+      "end": 5.42
+    },
+    {
+      "word": "todo",
+      "start": 5.42,
+      "end": 5.66
+    },
+    {
+      "word": "un",
+      "start": 5.66,
+      "end": 5.86
+    },
+    {
+      "word": "equipo",
+      "start": 5.86,
+      "end": 6.18
+    },
+    {
+      "word": "de",
+      "start": 6.18,
+      "end": 6.56
+    },
+    {
+      "word": "agresados",
+      "start": 6.56,
+      "end": 7.08
+    },
+    {
+      "word": "de",
+      "start": 7.08,
+      "end": 7.3
+    },
+    {
+      "word": "Harvard",
+      "start": 7.3,
+      "end": 7.56
+    },
+    {
+      "word": "trabajando",
+      "start": 7.56,
+      "end": 8.14
+    },
+    {
+      "word": "para",
+      "start": 8.14,
+      "end": 8.54
+    },
+    {
+      "word": "él.",
+      "start": 8.54,
+      "end": 8.78
+    }
+  ]
+}

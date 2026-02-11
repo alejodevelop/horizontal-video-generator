@@ -11,3 +11,8 @@ import { enableTailwind } from '@remotion/tailwind-v4';
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
 Config.overrideWebpackConfig(enableTailwind);
+
+// Optimize for social media
+Config.setCodec("h264");
+Config.setCrf(20); // Good quality for social media
+Config.setPixelFormat("yuv420p"); // Compatible with most platforms

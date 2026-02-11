@@ -1,0 +1,147 @@
+{
+  "take": 6,
+  "duration": 10.7,
+  "text": "Inversores como Warren Buffett tienen que enfrentarse a la incertidumbre del mercado, los políticos ya saben que va a pasar y por eso nosotros seguimos a los políticos.",
+  "words": [
+    {
+      "word": "Inversores",
+      "start": 0.8999999999999999,
+      "end": 1.48
+    },
+    {
+      "word": "como",
+      "start": 1.48,
+      "end": 1.78
+    },
+    {
+      "word": "Warren",
+      "start": 1.78,
+      "end": 2.06
+    },
+    {
+      "word": "Buffett",
+      "start": 2.06,
+      "end": 2.54
+    },
+    {
+      "word": "tienen",
+      "start": 2.54,
+      "end": 2.8
+    },
+    {
+      "word": "que",
+      "start": 2.8,
+      "end": 3.06
+    },
+    {
+      "word": "enfrentarse",
+      "start": 3.06,
+      "end": 3.68
+    },
+    {
+      "word": "a",
+      "start": 3.68,
+      "end": 3.82
+    },
+    {
+      "word": "la",
+      "start": 3.82,
+      "end": 3.86
+    },
+    {
+      "word": "incertidumbre",
+      "start": 3.86,
+      "end": 4.6
+    },
+    {
+      "word": "del",
+      "start": 4.6,
+      "end": 4.74
+    },
+    {
+      "word": "mercado,",
+      "start": 4.74,
+      "end": 5.2
+    },
+    {
+      "word": "los",
+      "start": 5.96,
+      "end": 6.06
+    },
+    {
+      "word": "políticos",
+      "start": 6.06,
+      "end": 6.54
+    },
+    {
+      "word": "ya",
+      "start": 6.54,
+      "end": 6.72
+    },
+    {
+      "word": "saben",
+      "start": 6.72,
+      "end": 7.08
+    },
+    {
+      "word": "que",
+      "start": 7.08,
+      "end": 7.3
+    },
+    {
+      "word": "va",
+      "start": 7.3,
+      "end": 7.42
+    },
+    {
+      "word": "a",
+      "start": 7.42,
+      "end": 7.44
+    },
+    {
+      "word": "pasar",
+      "start": 7.44,
+      "end": 7.88
+    },
+    {
+      "word": "y",
+      "start": 7.88,
+      "end": 8.44
+    },
+    {
+      "word": "por",
+      "start": 8.44,
+      "end": 8.64
+    },
+    {
+      "word": "eso",
+      "start": 8.64,
+      "end": 8.82
+    },
+    {
+      "word": "nosotros",
+      "start": 8.82,
+      "end": 9.18
+    },
+    {
+      "word": "seguimos",
+      "start": 9.18,
+      "end": 9.72
+    },
+    {
+      "word": "a",
+      "start": 9.72,
+      "end": 9.9
+    },
+    {
+      "word": "los",
+      "start": 9.9,
+      "end": 10.06
+    },
+    {
+      "word": "políticos.",
+      "start": 10.06,
+      "end": 10.7
+    }
+  ]
+}

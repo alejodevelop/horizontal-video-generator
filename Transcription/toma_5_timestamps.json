@@ -1,0 +1,122 @@
+{
+  "take": 5,
+  "duration": 17.8,
+  "text": "Nancy Pelosi logró 103% con Google. Marjorie Taylor Green logró 117% con AMD. Resultados que Warren Buffett solo podría haber soñado.",
+  "words": [
+    {
+      "word": "Nancy",
+      "start": 0.0,
+      "end": 0.88
+    },
+    {
+      "word": "Pelosi",
+      "start": 0.88,
+      "end": 1.36
+    },
+    {
+      "word": "logró",
+      "start": 1.36,
+      "end": 2.2
+    },
+    {
+      "word": "103",
+      "start": 2.2,
+      "end": 3.02
+    },
+    {
+      "word": "%",
+      "start": 3.02,
+      "end": 3.64
+    },
+    {
+      "word": "con",
+      "start": 3.64,
+      "end": 4.32
+    },
+    {
+      "word": "Google.",
+      "start": 4.32,
+      "end": 4.72
+    },
+    {
+      "word": "Marjorie",
+      "start": 5.64,
+      "end": 6.32
+    },
+    {
+      "word": "Taylor",
+      "start": 6.32,
+      "end": 6.68
+    },
+    {
+      "word": "Green",
+      "start": 6.68,
+      "end": 7.12
+    },
+    {
+      "word": "logró",
+      "start": 7.12,
+      "end": 8.24
+    },
+    {
+      "word": "117",
+      "start": 8.24,
+      "end": 9.8
+    },
+    {
+      "word": "%",
+      "start": 9.8,
+      "end": 10.58
+    },
+    {
+      "word": "con",
+      "start": 10.58,
+      "end": 11.46
+    },
+    {
+      "word": "AMD.",
+      "start": 11.46,
+      "end": 12.06
+    },
+    {
+      "word": "Resultados",
+      "start": 13.42,
+      "end": 14.24
+    },
+    {
+      "word": "que",
+      "start": 14.24,
+      "end": 14.54
+    },
+    {
+      "word": "Warren",
+      "start": 14.54,
+      "end": 14.84
+    },
+    {
+      "word": "Buffett",
+      "start": 14.84,
+      "end": 15.38
+    },
+    {
+      "word": "solo",
+      "start": 15.38,
+      "end": 16.0
+    },
+    {
+      "word": "podría",
+      "start": 16.0,
+      "end": 16.56
+    },
+    {
+      "word": "haber",
+      "start": 16.56,
+      "end": 17.02
+    },
+    {
+      "word": "soñado.",
+      "start": 17.02,
+      "end": 17.8
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "take": 3,
+  "duration": 8.4,
+  "text": "El solo logró un 22% pero sabes quién logró 35%",
+  "words": [
+    {
+      "word": "El",
+      "start": 0.0,
+      "end": 1.16
+    },
+    {
+      "word": "solo",
+      "start": 1.16,
+      "end": 1.64
+    },
+    {
+      "word": "logró",
+      "start": 1.64,
+      "end": 2.28
+    },
+    {
+      "word": "un",
+      "start": 2.28,
+      "end": 2.74
+    },
+    {
+      "word": "22",
+      "start": 2.74,
+      "end": 3.32
+    },
+    {
+      "word": "%",
+      "start": 3.32,
+      "end": 4.16
+    },
+    {
+      "word": "pero",
+      "start": 4.16,
+      "end": 4.9
+    },
+    {
+      "word": "sabes",
+      "start": 4.9,
+      "end": 5.24
+    },
+    {
+      "word": "quién",
+      "start": 5.24,
+      "end": 5.66
+    },
+    {
+      "word": "logró",
+      "start": 5.66,
+      "end": 6.24
+    },
+    {
+      "word": "35",
+      "start": 6.24,
+      "end": 7.5
+    },
+    {
+      "word": "%",
+      "start": 7.5,
+      "end": 8.4
+    }
+  ]
+}
