@@ -5,12 +5,14 @@ interface ImageOverlayProps {
     imagePath: string;
     startFrame: number;
     endFrame: number;
+    style?: React.CSSProperties;
 }
 
 export const ImageOverlay: React.FC<ImageOverlayProps> = ({
     imagePath,
     startFrame,
     endFrame,
+    style,
 }) => {
     const frame = useCurrentFrame();
 
@@ -74,6 +76,7 @@ export const ImageOverlay: React.FC<ImageOverlayProps> = ({
                     overflow: 'hidden',
                     boxShadow: '0 16px 64px rgba(0, 0, 0, 0.8)',
                     border: '6px solid rgba(255, 255, 255, 0.8)',
+                    ...style,
                 }}
             >
                 <Img

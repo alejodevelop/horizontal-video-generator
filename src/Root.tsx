@@ -1,3 +1,5 @@
+import { z } from "zod";
+import { SyncTest } from "./components/SyncTest";
 import "./index.css";
 import { Composition } from "remotion";
 import { MyComposition } from "./Composition";
@@ -16,6 +18,11 @@ const totalSeconds =
 
 const totalDuration = Math.ceil(totalSeconds * fps);
 
+const syncTestSchema = z.object({
+  takeId: z.number().min(1).max(7),
+  showReferenceAudio: z.boolean(),
+});
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
@@ -26,6 +33,16 @@ export const RemotionRoot: React.FC = () => {
         fps={fps}
         width={1080}
         height={1920}
+      />
+      <Composition
+        id="SyncTest"
+        component={SyncTest as any}
+        durationInFrames={30 * 20}
+        fps={fps}
+        width={1080}
+        height={1920}
+        schema={syncTestSchema}
+        defaultProps={{ takeId: 7, showReferenceAudio: true }}
       />
     </>
   );

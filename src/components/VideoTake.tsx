@@ -1,6 +1,7 @@
 import React from 'react';
-import { AbsoluteFill, Audio, OffthreadVideo, Sequence, staticFile, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Audio, Video, Sequence, staticFile, useVideoConfig } from 'remotion';
 import type { Take } from '../types';
+import { IMAGE_STYLES } from '../config/takes';
 import { Subtitle } from './Subtitle';
 import { ZoomEffect } from './ZoomEffect';
 import { ImageOverlay } from './ImageOverlay';
@@ -28,7 +29,8 @@ export const VideoTake: React.FC<VideoTakeProps> = ({ take, durationInFrames }) 
     const imageOverlays = detectImageOverlays(
         take.transcription,
         durationInFrames,
-        take.images
+        take.images,
+        words // Pass precise timestamps
     );
 
     return (
@@ -43,7 +45,7 @@ export const VideoTake: React.FC<VideoTakeProps> = ({ take, durationInFrames }) 
                             backgroundColor: '#000',
                         }}
                     >
-                        <OffthreadVideo
+                        <Video
                             src={staticFile(take.videoPath)}
                             muted
                             startFrom={take.videoStartFrom ? Math.floor(take.videoStartFrom * fps) : 0}
@@ -63,7 +65,7 @@ export const VideoTake: React.FC<VideoTakeProps> = ({ take, durationInFrames }) 
                         backgroundColor: '#000',
                     }}
                 >
-                    <OffthreadVideo
+                    <Video
                         src={staticFile(take.videoPath)}
                         muted
                         startFrom={take.videoStartFrom ? Math.floor(take.videoStartFrom * fps) : 0}
@@ -100,6 +102,7 @@ export const VideoTake: React.FC<VideoTakeProps> = ({ take, durationInFrames }) 
                     imagePath={overlay.imagePath}
                     startFrame={overlay.startFrame}
                     endFrame={overlay.endFrame}
+                    style={IMAGE_STYLES[overlay.imagePath]}
                 />
             ))}
         </AbsoluteFill>

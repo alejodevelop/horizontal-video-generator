@@ -34,3 +34,5 @@ public/Video/
 *.m4a
 *.wma
 *.opus
+
+build

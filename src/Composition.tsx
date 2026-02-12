@@ -1,4 +1,4 @@
-import { AbsoluteFill, Sequence } from 'remotion';
+import { AbsoluteFill, Sequence, Audio, staticFile } from 'remotion';
 import { TAKES } from './config/takes';
 import { VideoTake } from './components/VideoTake';
 import { TransitionEffect } from './components/TransitionEffect';
@@ -22,6 +22,11 @@ export const MyComposition = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#000' }}>
+      <Audio
+        src={staticFile('Music/chill-vibes.mp3')}
+        volume={0.1}
+        loop
+      />
       {TAKES.map((take, index) => {
         const durationInFrames = Math.ceil(TAKE_DURATIONS[index] * FPS);
         const from = currentFrame;
