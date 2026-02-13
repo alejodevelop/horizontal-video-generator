@@ -9,30 +9,33 @@ model = whisper.load_model("base")
 
 # Audio directory
 audio_dir = Path(__file__).parent.parent / "public" / "Audio"
-output_dir = Path(__file__).parent.parent / "Transcription"
-output_dir.mkdir(exist_ok=True)
+# Output to src/config/timestamps.json to be used by the app
+output_dir = Path(__file__).parent.parent / "src" / "config"
+output_dir.mkdir(exist_ok=True, parents=True)
 
-# Audio files
-audio_files = [
-    "toma_1.m4a",
-    "toma_2.m4a",
-    "toma_3.m4a",
-    "toma_4.m4a",
-    "toma_5.m4a",
-    "toma_6.m4a",
-    "toma_7.m4a",
-]
+# Scan for audio files
+print(f"Scanning {audio_dir}...")
+audio_files = sorted([f.name for f in audio_dir.glob("toma_*.m4a")])
+
+if not audio_files:
+    print("No audio files found!")
+    exit(1)
+
+print(f"Found {len(audio_files)} audio files: {audio_files}")
 
 all_data = {}
 
-for i, audio_file in enumerate(audio_files, 1):
+for audio_file in audio_files:
+    # Extract take number from filename
+    try:
+        take_num = int(audio_file.replace("toma_", "").replace(".m4a", ""))
+    except ValueError:
+        print(f"⚠️ Skipping {audio_file}: could not parse take number")
+        continue
+
     file_path = audio_dir / audio_file
     
-    if not file_path.exists():
-        print(f"⚠️  File not found: {file_path}")
-        continue
-    
-    print(f"\nProcessing toma_{i}...")
+    print(f"\nProcessing toma_{take_num}...")
     
     # Transcribe with word-level timestamps
     result = model.transcribe(
@@ -54,30 +57,23 @@ for i, audio_file in enumerate(audio_files, 1):
                     "end": word_data["end"]
                 })
     
-    # Save to individual JSON file
-    output_file = output_dir / f"toma_{i}_timestamps.json"
-    
     data = {
-        "take": i,
+        "take": take_num,
         "duration": result["segments"][-1]["end"] if result["segments"] else 0,
         "text": result["text"].strip(),
         "words": words_with_timestamps
     }
     
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    # Key by toma_X as expected by takes.ts
+    all_data[f"toma_{take_num}"] = data
     
-    all_data[f"toma_{i}"] = data
-    
-    print(f"✅ toma_{i}: {data['duration']:.2f}s - {len(words_with_timestamps)} words")
+    print(f"✅ toma_{take_num}: {data['duration']:.2f}s - {len(words_with_timestamps)} words")
     print(f"   Text: {result['text'][:80]}...")
 
-# Save combined data
-combined_file = output_dir / "all_timestamps.json"
+# Save combined data to src/config/timestamps.json
+combined_file = output_dir / "timestamps.json"
 with open(combined_file, "w", encoding="utf-8") as f:
     json.dump(all_data, f, ensure_ascii=False, indent=2)
 
-print(f"\n✅ All transcriptions saved to: {output_dir}")
-print("\nDurations:")
-for take, data in all_data.items():
-    print(f"  {take}: {data['duration']:.2f} seconds")
+print(f"\n✅ All transcriptions saved to: {combined_file}")
+

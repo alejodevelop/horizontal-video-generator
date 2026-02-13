@@ -1,0 +1,88 @@
+{
+  "takes": [
+    {
+      "video": "Video/toma_1.MOV",
+      "id": 1,
+      "audio": "Audio/toma_1.m4a"
+    },
+    {
+      "video": "Video/toma_2.MOV",
+      "id": 2,
+      "audio": "Audio/toma_2.m4a"
+    },
+    {
+      "video": "Video/toma_3.MOV",
+      "id": 3,
+      "audio": "Audio/toma_3.m4a"
+    },
+    {
+      "video": "Video/toma_4.MOV",
+      "id": 4,
+      "audio": "Audio/toma_4.m4a"
+    },
+    {
+      "video": "Video/toma_5.MOV",
+      "id": 5,
+      "audio": "Audio/toma_5.m4a"
+    },
+    {
+      "video": "Video/toma_6.MOV",
+      "id": 6,
+      "audio": "Audio/toma_6.m4a"
+    },
+    {
+      "video": "Video/toma_7.MOV",
+      "id": 7,
+      "audio": "Audio/toma_7.m4a"
+    }
+  ],
+  "images": [
+    "Images/amd.webp",
+    "Images/cabarcasandotten_instagram_banner.png",
+    "Images/capitolio.jpg",
+    "Images/cash_piles.jpg",
+    "Images/google.png",
+    "Images/iphone.webp",
+    "Images/marjorie_taylor.webp",
+    "Images/nancy_pelosi.avif",
+    "Images/stock_market.png",
+    "Images/stock_market.webp",
+    "Images/warren_buffet.jpg",
+    "Images/warren_buffet_2.png",
+    "Images/warren_buffet_3.webp",
+    "Images/warren_buffet_4.jpg"
+  ],
+  "imageKeywords": {
+    "Images/cabarcasandotten_instagram_banner.png": [
+      "instagram banner"
+    ],
+    "Images/cash_piles.jpg": [
+      "piles"
+    ],
+    "Images/marjorie_taylor.webp": [
+      "taylor"
+    ],
+    "Images/nancy_pelosi.avif": [
+      "pelosi"
+    ],
+    "Images/stock_market.png": [
+      "market"
+    ],
+    "Images/stock_market.webp": [
+      "market"
+    ],
+    "Images/warren_buffet.jpg": [
+      "buffet"
+    ],
+    "Images/warren_buffet_2.png": [
+      "buffet 2"
+    ],
+    "Images/warren_buffet_3.webp": [
+      "buffet 3"
+    ],
+    "Images/warren_buffet_4.jpg": [
+      "buffet 4"
+    ]
+  },
+  "backgroundMusic": "Music/chill-vibes.mp3"
+}

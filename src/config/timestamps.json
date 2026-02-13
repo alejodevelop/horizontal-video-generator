@@ -1,7 +1,7 @@
 {
   "toma_1": {
     "take": 1,
-    "duration": 6.0,
+    "duration": 6.98,
     "text": "En el 2024, Warren Buffett logró un 22%",
     "words": [
       {
@@ -42,12 +42,12 @@
       {
         "word": "22",
         "start": 5.72,
-        "end": 6.0
+        "end": 6.4
       },
       {
         "word": "%",
-        "start": 6.0,
-        "end": 6.0
+        "start": 6.4,
+        "end": 6.98
       }
     ]
   },
@@ -165,7 +165,7 @@
   },
   "toma_3": {
     "take": 3,
-    "duration": 8.9,
+    "duration": 8.4,
     "text": "El solo logró un 22% pero sabes quién logró 35%",
     "words": [
       {
@@ -226,7 +226,7 @@
       {
         "word": "%",
         "start": 7.5,
-        "end": 8.9
+        "end": 8.4
       }
     ]
   },
@@ -551,7 +551,7 @@
   },
   "toma_6": {
     "take": 6,
-    "duration": 11.0,
+    "duration": 10.7,
     "text": "Inversores como Warren Buffett tienen que enfrentarse a la incertidumbre del mercado, los políticos ya saben que va a pasar y por eso nosotros seguimos a los políticos.",
     "words": [
       {
@@ -692,13 +692,13 @@
       {
         "word": "políticos.",
         "start": 10.06,
-        "end": 11.0
+        "end": 10.7
       }
     ]
   },
   "toma_7": {
     "take": 7,
-    "duration": 4.54,
+    "duration": 4.24,
     "text": "si quieres saber cómo lo hacemos, síguenos",
     "words": [
       {
@@ -734,7 +734,7 @@
       {
         "word": "síguenos",
         "start": 3.38,
-        "end": 4.54
+        "end": 4.24
       }
     ]
   }
