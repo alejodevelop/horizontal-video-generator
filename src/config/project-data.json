@@ -34,6 +34,22 @@
       "video": "Video/toma_7.MOV",
       "id": 7,
       "audio": "Audio/toma_7.m4a"
+    },
+    {
+      "video": "Video/toma_8.mp4",
+      "id": 8
+    },
+    {
+      "video": "Video/toma_9.mp4",
+      "id": 9
+    },
+    {
+      "video": "Video/toma_10.mp4",
+      "id": 10
+    },
+    {
+      "video": "Video/toma_11.mp4",
+      "id": 11
     }
   ],
   "images": [

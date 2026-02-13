@@ -3,23 +3,22 @@ import { SyncTest } from "./components/SyncTest";
 import "./index.css";
 import { Composition } from "remotion";
 import { MyComposition } from "./Composition";
-import timestampsData from "./config/timestamps.json";
+import { TAKES } from "./config/takes";
 
-// Calculate total duration from Whisper timestamps
+// Calculate total duration dynamically from TAKES
 const fps = 30;
-const totalSeconds =
-  timestampsData.toma_1.duration +
-  timestampsData.toma_2.duration +
-  timestampsData.toma_3.duration +
-  timestampsData.toma_4.duration +
-  timestampsData.toma_5.duration +
-  timestampsData.toma_6.duration +
-  timestampsData.toma_7.duration;
+
+// Use the same logic as in Composition.tsx for duration calculation
+const totalSeconds = TAKES.reduce((acc, take) => {
+  const duration = take.timestamps?.duration > 0 ? take.timestamps.duration : 5;
+  return acc + duration;
+}, 0);
 
 const totalDuration = Math.ceil(totalSeconds * fps);
 
 const syncTestSchema = z.object({
-  takeId: z.number().min(1).max(7),
+  // Dynamic max based on number of takes
+  takeId: z.number().min(1).max(TAKES.length),
   showReferenceAudio: z.boolean(),
 });
 

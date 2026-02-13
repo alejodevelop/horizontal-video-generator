@@ -7,7 +7,6 @@ import { ZoomEffect } from './ZoomEffect';
 import { ImageOverlay } from './ImageOverlay';
 import { generateSubtitlesFromTimestamps, groupSubtitlesFromTimestamps } from '../utils/subtitles';
 import { detectImageOverlays } from '../utils/videoTiming';
-import timestampsData from '../config/timestamps.json';
 
 interface VideoTakeProps {
     take: Take;
@@ -17,17 +16,17 @@ interface VideoTakeProps {
 export const VideoTake: React.FC<VideoTakeProps> = ({ take, durationInFrames }) => {
     const { fps } = useVideoConfig();
 
-    // Get Whisper timestamps for this take
-    const takeKey = `toma_${take.id}` as keyof typeof timestampsData;
-    const timestampData = timestampsData[takeKey];
+    // Use timestamps passed from the Take object (safe fallback already handled in takes.ts)
+    const timestampData = take.timestamps || { words: [], text: '', duration: 0 };
 
     // Generate subtitles from Whisper timestamps (perfect sync!)
+    // If words array is empty, this returns empty array, which is fine.
     const words = generateSubtitlesFromTimestamps(timestampData.words, fps);
     const subtitleChunks = groupSubtitlesFromTimestamps(words, 3, 0.3, fps);
 
     // Detect image overlays
     const imageOverlays = detectImageOverlays(
-        take.transcription,
+        take.transcription || '', // Handle missing transcription
         durationInFrames,
         take.images,
         words // Pass precise timestamps
@@ -78,11 +77,13 @@ export const VideoTake: React.FC<VideoTakeProps> = ({ take, durationInFrames }) 
                 </AbsoluteFill>
             )}
 
-            {/* Audio track */}
-            <Audio
-                src={staticFile(take.audioPath)}
-                startFrom={take.audioStartFrom ? Math.floor(take.audioStartFrom * fps) : 0}
-            />
+            {/* Audio track - only render if audioPath exists */}
+            {take.audioPath && (
+                <Audio
+                    src={staticFile(take.audioPath)}
+                    startFrom={take.audioStartFrom ? Math.floor(take.audioStartFrom * fps) : 0}
+                />
+            )}
 
             {/* Subtitles with perfect Whisper timing */}
             {subtitleChunks.map((chunk, index) => (

@@ -19,9 +19,10 @@ export const MyComposition = () => {
         />
       )}
       {TAKES.map((take) => {
-        // Use duration from timestamps, defaulting to a safe value if missing
+        // Use duration from timestamps, defaulting to 5s if missing or zero
         const durationSecs = take.timestamps?.duration || 5;
         const durationInFrames = Math.ceil(durationSecs * FPS);
+
 
         const from = currentFrame;
         currentFrame += durationInFrames;
